@@ -1,0 +1,29 @@
+{
+    "name": "sergiodanilojr/framework",
+    "description": "Framework Pro",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Sergio Danilo Jr",
+            "email": "sergiodanilojr@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Framework\\Tests\\":"tests"
+        }
+    },
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "psr/container": "2.0.x-dev"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.2",
+        "phpunit/phpunit": "10.2.x-dev"
+    }
+}

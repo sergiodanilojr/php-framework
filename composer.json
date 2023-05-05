@@ -1,0 +1,21 @@
+{
+    "description": "Framework Pro",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "framework"
+        }
+    ],
+    "require": {
+        "sergiodanilojr/framework": "dev-main"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.2"
+    }
+}
